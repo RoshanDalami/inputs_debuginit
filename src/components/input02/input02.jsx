@@ -1,3 +1,4 @@
+import './input02.style.css'
 const Input02 = () =>{
     return (
         <div className="form">
