@@ -1,0 +1,38 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.header{
+    padding-bottom: 20px;
+}
+
+.input{
+    width: 15rem;
+    height: 2rem;
+    font-size: 16px;
+    position: relative;
+    border: 2px solid black;
+    padding: 0 10px;
+    background: transparent;
+}
+.label{
+    position: absolute;
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    top: 460px;
+    left: 550px;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+.input:focus{
+    outline: none;
+}
+.input:focus ~ .label{
+    top: 445px;
+    background: #fff;
+    
+}
