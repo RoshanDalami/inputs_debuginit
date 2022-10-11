@@ -4,9 +4,10 @@
     justify-content: center;
     height: 100vh;
     flex-direction: column;
+   
     
 }
 .inner_container{
-    padding: 20px;
+   margin-bottom: 10px;
     
 }

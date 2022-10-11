@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+
    
 }
 .header{
@@ -18,14 +20,15 @@
     padding: 0 10px;
     border-radius: 30px;
     background: transparent;
+    padding-left: 20px;
 }
 .label{
     position: absolute;
     display: inline;
     font-size: 16px;
     font-weight: 600;
-    top: 460px;
-    left: 570px;
+    margin-top: 45px;
+    margin-left: -140px;
     outline: none;
     transition: all .3s ease-in-out;
 }
@@ -33,7 +36,7 @@
     outline: none;
 }
 .input:focus ~ .label{
-    top: 445px;
+    margin-top: 10px;
     background: #fff;
     
 }
